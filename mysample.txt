@@ -1,0 +1,2 @@
+This is my sample file to push to git.
+How we are going to push using the git commands.

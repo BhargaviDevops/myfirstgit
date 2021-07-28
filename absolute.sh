@@ -1,16 +1,10 @@
 #!/bin/sh
 
-echo "Enter first number : " 
-read  a
-echo "Enter second number :"
-read  b
-echo "Enter third number : "
-read  c
-echo "Enter fourth number : "
-read  d
-echo "Enter fifth number : "
-read  e
-
+read -p "Enter first number : " a
+read -p "Enter second number : " b
+read -p "Enter third  number : " c
+read -p "Enter fourth number : " d
+read -p "Enter fifth  number : " e
 if [ $a -gt 0 ];
 then
 #echo " value of a is $a"

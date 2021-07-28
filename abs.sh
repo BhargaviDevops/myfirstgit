@@ -8,7 +8,7 @@ echo "Enter third number : "
 read c
 echo "Enter fourth number : "
 read d
-echo "Enter fifth number :"
+echo "Enter fifth number : "
 read e
 
 if [ $a -gt 0 ];
@@ -60,6 +60,6 @@ fi
 
 echo "Given values are : $a + $b + $c + $d + $e"
 
-((val = $a + $b + $c + $d + $e))
+((val = $a + $b + $c + $d + $e ))
 
 echo "sum of numbers : $val"
